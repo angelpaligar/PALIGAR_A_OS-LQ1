@@ -1,0 +1,274 @@
+Microsoft Windows [Version 10.0.26100.5074]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Eddielyn>cd downloads
+
+C:\Users\Eddielyn\Downloads>mkdir PALIGAR_A_OS-LQ1
+
+C:\Users\Eddielyn\Downloads>cd PALIGAR_A_OS-LQ1
+
+C:\Users\Eddielyn\Downloads\PALIGAR_A_OS-LQ1>mkdir src common installer cache user
+
+C:\Users\Eddielyn\Downloads\PALIGAR_A_OS-LQ1>cd  src
+
+C:\Users\Eddielyn\Downloads\PALIGAR_A_OS-LQ1\src>mkdir a\b\c\d\e\f\g
+
+C:\Users\Eddielyn\Downloads\PALIGAR_A_OS-LQ1\src>cd..
+
+C:\Users\Eddielyn\Downloads\PALIGAR_A_OS-LQ1>cd common
+
+C:\Users\Eddielyn\Downloads\PALIGAR_A_OS-LQ1\common>mkdir h\i\j\k\l\m
+
+C:\Users\Eddielyn\Downloads\PALIGAR_A_OS-LQ1\common>cd..
+
+C:\Users\Eddielyn\Downloads\PALIGAR_A_OS-LQ1>cd installer
+
+C:\Users\Eddielyn\Downloads\PALIGAR_A_OS-LQ1\installer>mkdir "installer_folder"
+
+C:\Users\Eddielyn\Downloads\PALIGAR_A_OS-LQ1\installer>cd..
+
+C:\Users\Eddielyn\Downloads\PALIGAR_A_OS-LQ1>cd cache
+
+C:\Users\Eddielyn\Downloads\PALIGAR_A_OS-LQ1\cache>mkdir a b c d e f g h i j k l m n o p q r s t u v w x y z
+
+C:\Users\Eddielyn\Downloads\PALIGAR_A_OS-LQ1\cache>mkdir 1 2 3 4 5 6 7 8 9 10
+
+C:\Users\Eddielyn\Downloads\PALIGAR_A_OS-LQ1\cache>cd..
+
+C:\Users\Eddielyn\Downloads\PALIGAR_A_OS-LQ1>cd user
+
+C:\Users\Eddielyn\Downloads\PALIGAR_A_OS-LQ1\user>mkdir "user_jerico" "user_eliza" "user_juan"
+
+C:\Users\Eddielyn\Downloads\PALIGAR_A_OS-LQ1\user>cd user_jerico
+
+C:\Users\Eddielyn\Downloads\PALIGAR_A_OS-LQ1\user\user_jerico>mkdir "user_profile" "user_settings" "user_preferences"
+
+C:\Users\Eddielyn\Downloads\PALIGAR_A_OS-LQ1\user\user_jerico>cd user_profile
+
+C:\Users\Eddielyn\Downloads\PALIGAR_A_OS-LQ1\user\user_jerico\user_profile>mkdir "jerico estabillo"
+
+C:\Users\Eddielyn\Downloads\PALIGAR_A_OS-LQ1\user\user_jerico\user_profile>cd..
+
+C:\Users\Eddielyn\Downloads\PALIGAR_A_OS-LQ1\user\user_jerico>cd user_settings
+
+C:\Users\Eddielyn\Downloads\PALIGAR_A_OS-LQ1\user\user_jerico\user_settings>mkdir OSversion AppVersion
+
+C:\Users\Eddielyn\Downloads\PALIGAR_A_OS-LQ1\user\user_jerico\user_settings>cd..
+
+C:\Users\Eddielyn\Downloads\PALIGAR_A_OS-LQ1\user\user_jerico>cd..
+
+C:\Users\Eddielyn\Downloads\PALIGAR_A_OS-LQ1\user>robocopy user_jerico\user_profile user_eliza\user_profile /E
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows
+-------------------------------------------------------------------------------
+
+  Started : Friday, 29 August 2025 8:36:04 pm
+   Source : C:\Users\Eddielyn\Downloads\PALIGAR_A_OS-LQ1\user\user_jerico\user_profile\
+     Dest : C:\Users\Eddielyn\Downloads\PALIGAR_A_OS-LQ1\user\user_eliza\user_profile\
+
+    Files : *.*
+
+  Options : *.* /S /E /DCOPY:DA /COPY:DAT /R:1000000 /W:30
+
+------------------------------------------------------------------------------
+
+          New Dir          0    C:\Users\Eddielyn\Downloads\PALIGAR_A_OS-LQ1\user\user_jerico\user_profile\
+          New Dir          0    C:\Users\Eddielyn\Downloads\PALIGAR_A_OS-LQ1\user\user_jerico\user_profile\jerico estabillo\
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         2         2         0         0         0         0
+   Files :         0         0         0         0         0         0
+   Bytes :         0         0         0         0         0         0
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+   Ended : Friday, 29 August 2025 8:36:04 pm
+
+
+C:\Users\Eddielyn\Downloads\PALIGAR_A_OS-LQ1\user>robocopy user_jerico\user_settings user_eliza\user_settings /E
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows
+-------------------------------------------------------------------------------
+
+  Started : Friday, 29 August 2025 8:36:18 pm
+   Source : C:\Users\Eddielyn\Downloads\PALIGAR_A_OS-LQ1\user\user_jerico\user_settings\
+     Dest : C:\Users\Eddielyn\Downloads\PALIGAR_A_OS-LQ1\user\user_eliza\user_settings\
+
+    Files : *.*
+
+  Options : *.* /S /E /DCOPY:DA /COPY:DAT /R:1000000 /W:30
+
+------------------------------------------------------------------------------
+
+          New Dir          0    C:\Users\Eddielyn\Downloads\PALIGAR_A_OS-LQ1\user\user_jerico\user_settings\
+          New Dir          0    C:\Users\Eddielyn\Downloads\PALIGAR_A_OS-LQ1\user\user_jerico\user_settings\AppVersion\
+          New Dir          0    C:\Users\Eddielyn\Downloads\PALIGAR_A_OS-LQ1\user\user_jerico\user_settings\OSversion\
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         3         3         0         0         0         0
+   Files :         0         0         0         0         0         0
+   Bytes :         0         0         0         0         0         0
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+   Ended : Friday, 29 August 2025 8:36:18 pm
+
+
+C:\Users\Eddielyn\Downloads\PALIGAR_A_OS-LQ1\user>robocopy user_jerico\user_preferences user_eliza\user_preferences /E
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows
+-------------------------------------------------------------------------------
+
+  Started : Friday, 29 August 2025 8:36:34 pm
+   Source : C:\Users\Eddielyn\Downloads\PALIGAR_A_OS-LQ1\user\user_jerico\user_preferences\
+     Dest : C:\Users\Eddielyn\Downloads\PALIGAR_A_OS-LQ1\user\user_eliza\user_preferences\
+
+    Files : *.*
+
+  Options : *.* /S /E /DCOPY:DA /COPY:DAT /R:1000000 /W:30
+
+------------------------------------------------------------------------------
+
+          New Dir          0    C:\Users\Eddielyn\Downloads\PALIGAR_A_OS-LQ1\user\user_jerico\user_preferences\
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         1         1         0         0         0         0
+   Files :         0         0         0         0         0         0
+   Bytes :         0         0         0         0         0         0
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+   Ended : Friday, 29 August 2025 8:36:35 pm
+
+
+C:\Users\Eddielyn\Downloads\PALIGAR_A_OS-LQ1\user>robocopy user_jerico\user_profile user_juan\user_profile /E
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows
+-------------------------------------------------------------------------------
+
+  Started : Friday, 29 August 2025 8:37:03 pm
+   Source : C:\Users\Eddielyn\Downloads\PALIGAR_A_OS-LQ1\user\user_jerico\user_profile\
+     Dest : C:\Users\Eddielyn\Downloads\PALIGAR_A_OS-LQ1\user\user_juan\user_profile\
+
+    Files : *.*
+
+  Options : *.* /S /E /DCOPY:DA /COPY:DAT /R:1000000 /W:30
+
+------------------------------------------------------------------------------
+
+          New Dir          0    C:\Users\Eddielyn\Downloads\PALIGAR_A_OS-LQ1\user\user_jerico\user_profile\
+          New Dir          0    C:\Users\Eddielyn\Downloads\PALIGAR_A_OS-LQ1\user\user_jerico\user_profile\jerico estabillo\
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         2         2         0         0         0         0
+   Files :         0         0         0         0         0         0
+   Bytes :         0         0         0         0         0         0
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+   Ended : Friday, 29 August 2025 8:37:03 pm
+
+
+C:\Users\Eddielyn\Downloads\PALIGAR_A_OS-LQ1\user>robocopy user_jerico\user_settings user_juan\user_settings /E
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows
+-------------------------------------------------------------------------------
+
+  Started : Friday, 29 August 2025 8:37:15 pm
+   Source : C:\Users\Eddielyn\Downloads\PALIGAR_A_OS-LQ1\user\user_jerico\user_settings\
+     Dest : C:\Users\Eddielyn\Downloads\PALIGAR_A_OS-LQ1\user\user_juan\user_settings\
+
+    Files : *.*
+
+  Options : *.* /S /E /DCOPY:DA /COPY:DAT /R:1000000 /W:30
+
+------------------------------------------------------------------------------
+
+          New Dir          0    C:\Users\Eddielyn\Downloads\PALIGAR_A_OS-LQ1\user\user_jerico\user_settings\
+          New Dir          0    C:\Users\Eddielyn\Downloads\PALIGAR_A_OS-LQ1\user\user_jerico\user_settings\AppVersion\
+          New Dir          0    C:\Users\Eddielyn\Downloads\PALIGAR_A_OS-LQ1\user\user_jerico\user_settings\OSversion\
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         3         3         0         0         0         0
+   Files :         0         0         0         0         0         0
+   Bytes :         0         0         0         0         0         0
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+   Ended : Friday, 29 August 2025 8:37:15 pm
+
+
+C:\Users\Eddielyn\Downloads\PALIGAR_A_OS-LQ1\user>robocopy user_jerico\user_preferences user_juan\user_preferences /E
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows
+-------------------------------------------------------------------------------
+
+  Started : Friday, 29 August 2025 8:37:31 pm
+   Source : C:\Users\Eddielyn\Downloads\PALIGAR_A_OS-LQ1\user\user_jerico\user_preferences\
+     Dest : C:\Users\Eddielyn\Downloads\PALIGAR_A_OS-LQ1\user\user_juan\user_preferences\
+
+    Files : *.*
+
+  Options : *.* /S /E /DCOPY:DA /COPY:DAT /R:1000000 /W:30
+
+------------------------------------------------------------------------------
+
+          New Dir          0    C:\Users\Eddielyn\Downloads\PALIGAR_A_OS-LQ1\user\user_jerico\user_preferences\
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         1         1         0         0         0         0
+   Files :         0         0         0         0         0         0
+   Bytes :         0         0         0         0         0         0
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+   Ended : Friday, 29 August 2025 8:37:31 pm
+
+
+C:\Users\Eddielyn\Downloads\PALIGAR_A_OS-LQ1\user>ren user_eliza\user_profile "Eliza Taylor"
+
+C:\Users\Eddielyn\Downloads\PALIGAR_A_OS-LQ1\user>ren user_juan\user_profile "Juan Pablo"
+
+C:\Users\Eddielyn\Downloads\PALIGAR_A_OS-LQ1\user>cd user_jerico
+
+C:\Users\Eddielyn\Downloads\PALIGAR_A_OS-LQ1\user\user_jerico>cd user_settings
+
+C:\Users\Eddielyn\Downloads\PALIGAR_A_OS-LQ1\user\user_jerico\user_settings>cd AppVersion
+
+C:\Users\Eddielyn\Downloads\PALIGAR_A_OS-LQ1\user\user_jerico\user_settings\AppVersion>mkdir sampleApp_v2 sampleAppv3 sampleApp_V5
+
+C:\Users\Eddielyn\Downloads\PALIGAR_A_OS-LQ1\user\user_jerico\user_settings\AppVersion>cd..
+
+C:\Users\Eddielyn\Downloads\PALIGAR_A_OS-LQ1\user\user_jerico\user_settings>cd..
+
+C:\Users\Eddielyn\Downloads\PALIGAR_A_OS-LQ1\user\user_jerico>cd..
+
+C:\Users\Eddielyn\Downloads\PALIGAR_A_OS-LQ1\user>move user_jerico\user_settings\AppVersion\sampleAppv3 user_eliza\user_settings
+        1 dir(s) moved.
+
+C:\Users\Eddielyn\Downloads\PALIGAR_A_OS-LQ1\user>move user_jerico\user_settings\AppVersion\sampleApp_V5 user_juan\user_settings
+        1 dir(s) moved.
+
+C:\Users\Eddielyn\Downloads\PALIGAR_A_OS-LQ1\user>rmdir /s /q user_jerico\user_settings\OSversion
+
+C:\Users\Eddielyn\Downloads\PALIGAR_A_OS-LQ1\user>rmdir /s /q user_eliza\user_settings\OSversion
+
+C:\Users\Eddielyn\Downloads\PALIGAR_A_OS-LQ1\user>rmdir /s /q user_juan\user_settings\OSversion
+
+C:\Users\Eddielyn\Downloads\PALIGAR_A_OS-LQ1\user>cd..
+
+C:\Users\Eddielyn\Downloads\PALIGAR_A_OS-LQ1>move user\user_jerico\user_preferences installer\mode_jerico move user\user_eliza\user_preferences installer\mode_eliza move user\user_juan\user_preferences installer\mode_juan
+The syntax of the command is incorrect.
+
+C:\Users\Eddielyn\Downloads\PALIGAR_A_OS-LQ1>move user\user_jerico\user_preferences installer\mode_jerico & move user\user_eliza\user_preferences installer\mode_eliza & move user\user_juan\user_preferences installer\mode_juan
+        1 dir(s) moved.
+        1 dir(s) moved.
+        1 dir(s) moved.
+
+C:\Users\Eddielyn\Downloads\PALIGAR_A_OS-LQ1>
